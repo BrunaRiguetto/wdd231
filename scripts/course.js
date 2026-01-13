@@ -2,7 +2,9 @@ const courses = [
   { code: "WDD 130", type: "wdd", credits: 2, completed: true },
   { code: "WDD 131", type: "wdd", credits: 2, completed: true },
   { code: "WDD 231", type: "wdd", credits: 2, completed: false },
-  { code: "CSE 110", type: "cse", credits: 2, completed: true }
+  { code: "CSE 110", type: "cse", credits: 2, completed: true },
+  { code: "CSE 111", type: "cse", credits: 2, completed: true },
+  { code: "CSE 210", type: "cse", credits: 2, completed: true }
 ];
 
 const container = document.getElementById("courses");

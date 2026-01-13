@@ -4,10 +4,22 @@ body {
   line-height: 1.6;
 }
 
-header, footer {
-  background-color: #222;
+header,
+footer {
+  background-color: #000000;
   color: white;
   padding: 1rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
 }
 
 nav {
