@@ -3,12 +3,91 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Bruna Vasconcelos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 231 | Bruna Vasconcelos</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 231 - Bruna</h1>
+
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Site logo" class="logo">
+            <span class="site-name">Bruna Vasconcelos</span>
+            <button id="menuBtn" aria-label="Open Menu">☰</button>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Chamber Project</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+        <h1>Home</h1>
+    <main>
+        
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a mother, student, and aspiring software professional. I enjoy learning
+                web development, working on real projects, and building a better future for my family.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Photo of Bruna Vasconcelos">
+        </section>
+
+        <section class="card">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filters">
+                <button data-filter="all">All</button>
+                <button data-filter="wdd">WDD</button>
+                <button data-filter="cse">CSE</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p class="credits">
+                Total Credits: <span id="totalCredits"></span>
+            </p>
+
+            <div class="social">
+            <a href="https://github.com/YOUR_GITHUB" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/YOUR_LINKEDIN" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#">X</a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+
+        <p>
+            © <span id="year"></span> | Bruna Vasconcelos | Brazil
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 
 </html>
