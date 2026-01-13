@@ -43,6 +43,6 @@ main {
 }
 
 img {
-  max-width: auto;
+  width: auto;
   height: 20rem;
 }
