@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+
+  #members.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .member-card img {
+  width: 150px;
+  height: 100px;
+}
+
+
+}
+
+/* ==========================
+   LIST VIEW DESKTOP LAYOUT
+========================== */
+
+#members.list .member-card {
+  grid-template-columns: 2fr 3fr 2fr 3fr;
+  align-items: center;
+  gap: 1rem;
+}

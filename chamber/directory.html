@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Londrina Chamber of Commerce Directory</title>
+    <meta name="description" content="Business member directory for the Londrina Chamber of Commerce.">
+    <meta name="author" content="Bruna Riguetto Vasconcelos">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Facebook Meta -->
+    <meta property="og:title" content="Londrina Chamber of Commerce">
+    <meta property="og:description" content="Discover local businesses and chamber members in Londrina.">
+    <meta property="og:image" content="https://BrunaRiguetto.github.io/wdd231/chamber/images/social-preview.jpg">
+    <meta property="og:url" content="https://BrunaRiguetto.github.io/wdd231/chamber/directory.html">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/chamber.css">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Londrina Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Member Directory</h2>
+
+        <!-- View Buttons -->
+        <section class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </section>
+
+        <!-- Members Container -->
+        <section id="members" class="grid"></section>
+
+    </main>
+
+    <footer>
+        <p>Londrina Chamber of Commerce</p>
+        <p>Email: info@londrinacitychamber.org | Phone: (555) 123-4567</p>
+        <p>
+            Bruna Riguetto Vasconcelos | WDD 231 |
+            Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
+
+</body>
+
+</html>

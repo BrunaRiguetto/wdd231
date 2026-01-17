@@ -1,0 +1,136 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+}
+
+nav.show {
+  display: flex;
+}
+
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+img {
+  width: auto;
+  height: 20rem;
+}
+
+/* ==========================
+   DIRECTORY LAYOUT
+========================== */
+
+/* Default GRID — MOBILE */
+
+#members.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* Card Style */
+
+.member-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+}
+
+.member-card img {
+  width: 120px;
+  margin-bottom: 0.5rem;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* ==========================
+   LIST VIEW (MOBILE FIRST)
+========================== */
+
+#members.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#members.list .member-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+  text-align: left;
+}
+
+/* Zebra striping */
+
+#members.list .member-card:nth-child(even) {
+  background-color: #eaf6f6;
+}
+
+#members.list .member-card:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hide logos in list */
+
+#members.list img {
+  display: none;
+}
+
+#members.list h3 {
+  margin-bottom: 0.25rem;
+}
+
+#members.list p,
+#members.list a {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+
+#members.grid .member-card img {
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+
