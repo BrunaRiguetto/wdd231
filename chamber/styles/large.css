@@ -20,3 +20,45 @@
   }
 
 }
+
+/* ==========================
+  LIST VIEW ON DESKTOP
+========================== */
+
+#members.list {
+  display: flex;
+  flex-direction: column;
+}
+
+#members.list .member-card {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+/* ==========================
+   Hamburguer Menu
+========================== */
+#menuButton {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+/* Show hamburger on mobile */
+@media (max-width: 640px) {
+  #menuButton {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+}

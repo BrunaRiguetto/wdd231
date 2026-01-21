@@ -21,7 +21,7 @@ function displayMembers(members) {
 
   members.forEach(member => {
 
-    const card = document.createElement("section");
+    const card = document.createElement("div");
     card.classList.add("member-card");
 
     const name = document.createElement("h3");
