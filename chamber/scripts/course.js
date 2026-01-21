@@ -33,3 +33,4 @@ document.querySelectorAll("[data-filter]").forEach(btn => {
 });
 
 displayCourses(courses);
+

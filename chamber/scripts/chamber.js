@@ -66,3 +66,23 @@ listButton.addEventListener("click", () => {
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+
+/*
+  async function displayCompanies() {
+    const response = await fetch('data/members.json');
+    const companies = await response.json();
+    companies.forEach(company => {
+        const section = document.createElement('section');
+    
+        section.innerHTML = `
+        <h3>${company.companyName}</h3>
+ 
+        <img src="images/${company.imageFile}" alt="${company.companyName}">
+        <p>Phone: ${company.phone}</p>
+        <a href="${company.websiteURL}" target="_blank">Visit Website</a>
+        `;
+    
+        container.appendChild(section);
+    });
+}

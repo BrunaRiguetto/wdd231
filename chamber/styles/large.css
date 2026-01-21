@@ -8,10 +8,9 @@
   }
 
   .member-card img {
-  width: 150px;
-  height: 100px;
-}
-
+    width: 150px;
+    height: 100px;
+  }
 
 }
 
@@ -19,7 +18,7 @@
    LIST VIEW DESKTOP LAYOUT
 ========================== */
 
-#members.list .member-card {
+#members.list {
   grid-template-columns: 2fr 3fr 2fr 3fr;
   align-items: center;
   gap: 1rem;
