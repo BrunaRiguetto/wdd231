@@ -68,8 +68,7 @@ listButton.addEventListener("click", () => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
-/*
-  async function displayCompanies() {
+async function displayCompanies() {
     const response = await fetch('data/members.json');
     const companies = await response.json();
     companies.forEach(company => {

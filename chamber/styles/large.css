@@ -12,14 +12,11 @@
     height: 100px;
   }
 
-}
+  #members.list {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 3fr;
+    align-items: center;
+    gap: 1rem;
+  }
 
-/* ==========================
-   LIST VIEW DESKTOP LAYOUT
-========================== */
-
-#members.list {
-  grid-template-columns: 2fr 3fr 2fr 3fr;
-  align-items: center;
-  gap: 1rem;
 }
