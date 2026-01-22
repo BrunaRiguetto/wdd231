@@ -13,7 +13,8 @@
   }
 
   #members.list {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 2fr 3fr 2fr 3fr;
     align-items: center;
     gap: 1rem;
@@ -24,11 +25,6 @@
 /* ==========================
   LIST VIEW ON DESKTOP
 ========================== */
-
-#members.list {
-  display: flex;
-  flex-direction: column;
-}
 
 #members.list .member-card {
   max-width: 100%;
