@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
 
+  /* ===== DIRECTORY GRID ===== */
+
   #members.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,27 +17,11 @@
   #members.list {
     display: flex;
     flex-direction: column;
-    grid-template-columns: 2fr 3fr 2fr 3fr;
     align-items: center;
     gap: 1rem;
   }
 
-}
-
-/* ==========================
-  LIST VIEW ON DESKTOP
-========================== */
-
-#members.list .member-card {
-  max-width: 100%;
-  width: 100%;
-}
-
-
-/* ==========================
-   Hamburguer Menu
-========================== */
-@media screen and (min-width: 768px) {
+  /* ===== NAVIGATION ===== */
 
   /* Hide hamburger on desktop */
   #menu {
@@ -51,4 +37,3 @@
   }
 
 }
-
