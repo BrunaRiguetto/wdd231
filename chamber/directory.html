@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-
+    
 
 
 </head>
@@ -36,14 +36,14 @@
 
     <header>
         <h1>Londrina Chamber of Commerce</h1>
-        
+        <button id="menu">☰</button>
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
-        <a href="#">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
     </nav>
 
     <main>
@@ -64,12 +64,15 @@
         <p>Londrina Chamber of Commerce</p>
         <p>Email: info@londrinacitychamber.org | Phone: (555) 123-4567</p>
         <p>
-            Bruna Riguetto Vasconcelos | WDD 231 |
+            Bruna Riguetto Vasconcelos | WDD 231 | © <span id="year"></span> |
             Last Modified: <span id="lastModified"></span>
+
+
         </p>
     </footer>
 
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/navigation.js"></script>
 
 </body>
 

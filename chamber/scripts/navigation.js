@@ -1,15 +1,8 @@
-/*
-const menuBtn = document.getElementById("menuBtn");
-const navMenu = document.getElementById("navMenu");
+const menu = document.querySelector("#menu");
+const nav = document.querySelector("nav");
 
-menuBtn.addEventListener("click", () => {
-  navMenu.classList.toggle("show");
-});
-*/
-
-const menuButton = document.querySelector("#menuButton");
-const navList = document.querySelector("nav ul");
-
-menuButton.addEventListener("click", () => {
-  navList.classList.toggle("open");
-});
+if (menu) {
+  menu.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
+}

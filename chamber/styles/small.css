@@ -27,6 +27,29 @@ nav {
   flex-direction: column;
 }
 
+#menu {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #eaf6f6;
+  cursor: pointer;
+}
+
+nav a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: rgb(174, 32, 29);
+}
+
 nav.show {
   display: flex;
 }
@@ -45,8 +68,8 @@ main {
 }
 
 img {
-  width: auto;
-  height: 20rem;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -136,5 +159,26 @@ img {
   display: block;
   margin: 0 auto 0.5rem;
 }
+
+.visit-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.visit-btn:hover {
+  background-color: #333;
+}
+
+#members.list .visit-btn {
+  margin-top: 0.3rem;
+  align-self: flex-start;
+}
+
 
 

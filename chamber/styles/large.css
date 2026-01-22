@@ -39,26 +39,20 @@
 /* ==========================
    Hamburguer Menu
 ========================== */
-#menuButton {
-  font-size: 1.8rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: none;
-}
+@media screen and (min-width: 768px) {
 
-/* Show hamburger on mobile */
-@media (max-width: 640px) {
-  #menuButton {
-    display: block;
-  }
-
-  nav ul {
+  /* Hide hamburger on desktop */
+  #menu {
     display: none;
-    flex-direction: column;
   }
 
-  nav ul.open {
+  /* Always show nav on desktop */
+  nav {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5rem;
   }
+
 }
+

@@ -33,21 +33,24 @@ function displayMembers(members) {
     const phone = document.createElement("p");
     phone.textContent = member.phone;
 
-    const website = document.createElement("a");
-    website.href = member.website;
-    website.textContent = member.website;
-    website.target = "_blank";
+    const websiteButton = document.createElement("a");
+    websiteButton.href = member.website;
+    websiteButton.textContent = "Visit Website";
+    websiteButton.target = "_blank";
+    websiteButton.classList.add("visit-btn");
+
 
     const image = document.createElement("img");
     image.src = `images/${member.image}`;
     image.alt = member.name;
     image.loading = "lazy";
 
+    card.appendChild(image);
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
-    card.appendChild(website);
-    card.appendChild(image);
+    card.appendChild(websiteButton);
+
 
 
     membersContainer.appendChild(card);
@@ -68,20 +71,3 @@ listButton.addEventListener("click", () => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
-async function displayCompanies() {
-    const response = await fetch('data/members.json');
-    const companies = await response.json();
-    companies.forEach(company => {
-        const section = document.createElement('section');
-    
-        section.innerHTML = `
-        <h3>${company.companyName}</h3>
- 
-        <img src="images/${company.imageFile}" alt="${company.companyName}">
-        <p>Phone: ${company.phone}</p>
-        <a href="${company.websiteURL}" target="_blank">Visit Website</a>
-        `;
-    
-        container.appendChild(section);
-    });
-}
