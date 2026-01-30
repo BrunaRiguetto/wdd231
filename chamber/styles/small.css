@@ -144,17 +144,18 @@ img {
   margin: 0;
   font-size: 1rem;
   line-height: 1.2;
+  color: #e6e6e6;
 }
 
 .spotlight-header p {
   margin: .2rem 0 0;
   font-size: .85rem;
-  color: #222;
+  color: #f9f7f7;
 }
 
 .tagline {
   font-size: .85rem;
-  color: #444;
+  color: #ffffff;
 }
 
 .spotlight-content {
