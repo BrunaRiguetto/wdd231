@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Londrina Chamber of Commerce | Home</title>
+    <meta name="description" content="Home page for the Londrina Chamber of Commerce website.">
+    <meta name="author" content="Bruna Riguetto Vasconcelos">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Facebook Meta -->
+    <meta property="og:title" content="Londrina Chamber of Commerce">
+    <meta property="og:description" content="Discover local businesses and chamber members in Londrina.">
+    <meta property="og:image" content="https://BrunaRiguetto.github.io/wdd231/chamber/images/social-preview.jpg">
+    <meta property="og:url" content="https://BrunaRiguetto.github.io/wdd231/chamber/directory.html">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- Links -->
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Londrina Chamber of Commerce</h1>
+        <button id="menu">☰</button>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+    </nav>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero.jpg" media="(min-width: 768px)">
+                <img src="images/hero.jpg" alt="Londrina">
+            </picture>
+
+            <div class="hero-overlay">
+                <a class="cta-btn" href="join.html">Join the Chamber</a>
+            </div>
+
+        </section>
+
+        <h2>Home</h2>
+
+        <!-- INFO GRID -->
+        <section class="home-grid">
+
+            <!-- EVENTS -->
+            <section class="events card">
+                <div class="card-header">
+                    <h3>Events</h3>
+                </div>
+                <div class="card-body">
+                    <p>📢 Business Networking Night – Friday, February 6th, 7PM</p>
+                    <p>📢 Small Business Workshop - Saturday, February 21st, at 10:00 AM</p>
+                    <p>📢 </p>
+                </div>
+            </section>
+
+
+            <!-- CURRENT WEATHER -->
+            <section class="weather card">
+                <div class="card-header">
+                    <h3>Current Weather</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="weather-box">
+                        <img id="weather-icon" alt="">
+                        <p><span id="current-temp"></span></p>
+                        <p id="weather-desc"></p>
+                    </div>
+
+                    <p>Humidity: <span id="humidity"></span>%</p>
+
+                </div>
+            </section>
+
+
+            <!-- FORECAST -->
+            <section class="forecast card">
+                <div class="card-header">
+                    <h3>Forecast</h3>
+                </div>
+
+                <div class="card-body">
+                    <p>Today: <span id="day1"></span></p>
+                    <p>Tomorrow: <span id="day2"></span></p>
+                    <p>Next Day: <span id="day3"></span></p>
+                </div>
+            </section>
+
+
+            <!-- SPOTLIGHT GRID -->
+            <section class="spotlight-grid">
+
+                <!-- Spotlight 1 -->
+                <div class="spotlight-card">
+
+                    <div class="spotlight-header">
+                        <h3>Baby Gym - Londrina</h3>
+                        <p class="tagline">Child Development</p>
+                    </div>
+
+                    <div class="spotlight-content">
+
+                        <img src="images/babygym.jpeg" alt="Baby Gym Londrina logo" loading="lazy">
+
+                        <div class="spotlight-info">
+                            <p><strong>PHONE:</strong> (43) 99651-7182</p>
+                            <p><strong>ADDRESS:</strong> Rua Shangai, 42</p>
+                            <p><strong>URL:</strong>
+                                <a href="https://www.instagram.com/meubabygymlondrina/#" target="_blank">Visit
+                                    Website</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Spotlight 2 -->
+                <div class="spotlight-card">
+
+                    <div class="spotlight-header">
+                        <h3>Colégio Positivo - Londrina</h3>
+                        <p class="tagline">Education</p>
+                    </div>
+
+                    <div class="spotlight-content">
+
+                        <img src="images/positivo.jpg" alt="Colégio Positivo Londrina logo" loading="lazy">
+
+                        <div class="spotlight-info">
+                            <p><strong>PHONE:</strong> (43) 3878-0004</p>
+                            <p><strong>ADDRESS:</strong> Av. Maringá, 991</p>
+                            <p><strong>URL:</strong>
+                                <a href="https://colegiopositivo.com.br/colegio/londrina/" target="_blank">Visit
+                                    Website</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Spotlight 3 -->
+                <div class="spotlight-card">
+
+                    <div class="spotlight-header">
+                        <h3>C25 - Soccer Academy</h3>
+                        <p class="tagline">Training</p>
+                    </div>
+
+                    <div class="spotlight-content">
+
+                        <img src="images/c25.jpg" alt="C25 Soccer Academy logo" loading="lazy">
+
+                        <div class="spotlight-info">
+                            <p><strong>PHONE:</strong> (43) 99125-1125</p>
+                            <p><strong>ADDRESS:</strong> Arena 25 - Londrina</p>
+                            <p><strong>URL:</strong>
+                                <a href="https://c25socceracademy.com" target="_blank">Visit Website</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+        </section>
+
+
+
+    </main>
+
+    <script src="scripts/weather.js" type="module"></script>
+    <script src="scripts/spotlight.js" type="module"></script>
+
+
+    <footer>
+        <p>Londrina Chamber of Commerce</p>
+        <p>Email: info@londrinacitychamber.org | Phone: (555) 123-4567</p>
+        <p>
+            Bruna Riguetto Vasconcelos | WDD 231 | © <span id="year"></span> |
+            Last Modified: <span id="lastModified"></span>
+
+
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
