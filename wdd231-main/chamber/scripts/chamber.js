@@ -58,8 +58,7 @@ function displayMembers(members) {
 }
 
 // Toggle View Buttons
-if (menuButton) {
-menuButton.addEventListener("click", () => {
+gridButton.addEventListener("click", () => {
   membersContainer.classList.add("grid");
   membersContainer.classList.remove("list");
 });
