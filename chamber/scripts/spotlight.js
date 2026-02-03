@@ -19,22 +19,23 @@ async function getSpotlights() {
   }
 }
 
-// Filter + Random + Display
 function displaySpotlights(members) {
-
-  // Silver = 2, Gold = 3 (based on your JSON)
+  // Filter for Silver (2) or Gold (3)
   const qualified = members.filter(member =>
     member.membership === 2 || member.membership === 3
   );
 
-  // Shuffle array
+  // Shuffle
   const shuffled = qualified.sort(() => 0.5 - Math.random());
 
-  // Pick first 3
+  // Pick 3 (Indices 0, 1, 2)
   const selected = shuffled.slice(0, 3);
 
-  selected.forEach(member => {
+  // Clear the container so you don't keep adding 
+  // more cards every time the function runs
+  spotlightContainer.innerHTML = '';
 
+  selected.forEach(member => {
     const card = document.createElement('div');
     card.classList.add('spotlight-card');
 
@@ -43,10 +44,8 @@ function displaySpotlights(members) {
         <h3>${member.name}</h3>
         <p class="tagline">${member.industry}</p>
       </div>
-
       <div class="spotlight-content">
         <img src="images/${member.image}" alt="${member.name} logo" loading="lazy">
-
         <div class="spotlight-info">
           <p><strong>PHONE:</strong> ${member.phone}</p>
           <p><strong>ADDRESS:</strong> ${member.address}</p>
@@ -57,7 +56,6 @@ function displaySpotlights(members) {
         </div>
       </div>
     `;
-
     spotlightContainer.appendChild(card);
   });
 }
