@@ -51,4 +51,12 @@
     gap: 0;
   }
 
+    /* ===== JOIN ===== */
+
+  .join-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
+  }
+
 }

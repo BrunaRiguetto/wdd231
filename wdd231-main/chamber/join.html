@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join the Chamber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Join the Londrina Chamber of Commerce">
+  <meta name="author" content="Bruna Riguetto Vasconcelos">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <!-- JS -->
+  <script src="scripts/join.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<header>
+  <h1>Londrina Chamber of Commerce</h1>
+  <button id="menu">☰</button>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="directory.html">Directory</a>
+  <a href="join.html" class="active">Join</a>
+  <a href="discover.html">Discover</a>
+</nav>
+
+<main>
+
+<h2>Membership Application</h2>
+
+<section class="join-layout">
+
+  <!-- FORM -->
+  <div class="form-card">
+    <h2>Join Us</h2>
+
+    <form method="get" action="thankyou.html">
+
+<!-- ================= FORM ================= -->
+
+  <label>
+    First Name
+    <input type="text" name="fname" required autocomplete="given-name" title="Enter your first name">
+  </label>
+
+  <label>
+    Last Name
+    <input type="text" name="lname" required autocomplete="family-name" title="Enter your last name">
+  </label>
+
+  <label>
+    Organizational Title
+    <input type="text"
+           name="orgtitle"
+           title="Only letters, hyphens and spaces (min 7 characters)"
+           autocomplete="organization-title"
+           pattern="[A-Za-z\s\-]{7,}">
+  </label>
+
+  <label>
+    Email
+    <input type="email"
+           name="email"
+           required
+           autocomplete="email"
+           placeholder="example@email.com"
+           title="Enter a valid email address">
+  </label>
+
+  <label>
+    Mobile Phone
+    <input type="tel"
+           name="phone"
+           required
+           autocomplete="tel"
+           title="Enter your phone number">
+  </label>
+
+  <label>
+    Business Name
+    <input type="text"
+           name="business"
+           required
+           autocomplete="organization"
+           title="Enter your business name">
+  </label>
+
+  <label>
+    Membership Level
+    <select name="membership" required title="Select a membership level">
+      <option value="">Select One</option>
+      <option value="np">NP Membership</option>
+      <option value="bronze">Bronze Membership</option>
+      <option value="silver">Silver Membership</option>
+      <option value="gold">Gold Membership</option>
+    </select>
+  </label>
+
+  <label>
+    Business Description
+    <textarea name="description" title="Describe your business"></textarea>
+  </label>
+
+  <!-- Hidden Timestamp -->
+  <input type="hidden" name="timestamp" id="timestamp">
+
+  <input type="submit" value="Submit Application">
+
+    </form>
+  </div>
+
+
+<!-- ================= MEMBERSHIP CARDS ================= -->
+
+<section class="membership-cards">
+
+  <div class="membership-card">
+    <h3>NP Membership</h3>
+    <p>No Fee</p>
+    <button onclick="document.getElementById('npModal').showModal()">View Benefits</button>
+  </div>
+
+  <div class="membership-card">
+    <h3>Bronze Membership</h3>
+    <p>Basic Exposure</p>
+    <button onclick="document.getElementById('bronzeModal').showModal()">View Benefits</button>
+  </div>
+
+  <div class="membership-card">
+    <h3>Silver Membership</h3>
+    <p>Advanced Promotion</p>
+    <button onclick="document.getElementById('silverModal').showModal()">View Benefits</button>
+  </div>
+
+  <div class="membership-card">
+    <h3>Gold Membership</h3>
+    <p>Premium Benefits</p>
+    <button onclick="document.getElementById('goldModal').showModal()">View Benefits</button>
+  </div>
+
+</section>
+
+</section>
+
+</main>
+
+<footer>
+  <p>Londrina Chamber of Commerce</p>
+  <p>© <span id="year"></span> | Bruna Riguetto Vasconcelos</p>
+</footer>
+
+<!-- ================= MODALS ================= -->
+
+<dialog id="npModal">
+  <h3>NP Membership Benefits</h3>
+  <p>Free membership, event access, community listing.</p>
+  <button onclick="this.parentElement.close()">Close</button>
+</dialog>
+
+<dialog id="bronzeModal">
+  <h3>Bronze Membership Benefits</h3>
+  <p>Training access, business directory listing.</p>
+  <button onclick="this.parentElement.close()">Close</button>
+</dialog>
+
+<dialog id="silverModal">
+  <h3>Silver Membership Benefits</h3>
+  <p>Advertising discounts, spotlight eligibility.</p>
+  <button onclick="this.parentElement.close()">Close</button>
+</dialog>
+
+<dialog id="goldModal">
+  <h3>Gold Membership Benefits</h3>
+  <p>Homepage spotlight, premium events, featured advertising.</p>
+  <button onclick="this.parentElement.close()">Close</button>
+</dialog>
+
+</body>
+</html>

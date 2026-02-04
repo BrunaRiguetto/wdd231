@@ -8,7 +8,7 @@ async function loadSpotlights() {
 
     // Filter ONLY Gold and Silver members
     const qualifiedMembers = data.members.filter(member =>
-      member.membership === "Gold" || member.membership === "Silver"
+      member.membership === "gold" || member.membership === "silver"
     );
 
     // Shuffle array randomly
@@ -35,7 +35,7 @@ function displaySpotlights(members) {
     card.innerHTML = `
       <div class="spotlight-header">
         <h3>${member.name}</h3>
-        <p class="tagline">${member.membership} Member</p>
+        <p class="tagline">${member.membership.toUpperCase()} Member</p>
       </div>
 
       <div class="spotlight-content">
@@ -56,4 +56,5 @@ function displaySpotlights(members) {
   });
 }
 
-loadSpotlights();
+// Safe load
+document.addEventListener("DOMContentLoaded", loadSpotlights);

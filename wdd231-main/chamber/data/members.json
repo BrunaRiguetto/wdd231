@@ -1,66 +1,67 @@
+
 {
   "members": [
     {
       "name": "Baby Gym - Londrina",
-      "address": "Rua Shangai, 42 - Londrina, PR",
-      "phone": "(43) 99651-7182",
-      "website": "https://www.instagram.com/meubabygymlondrina/",
+      "address": "Rua Shangai, 42, Londrina - PR",
+      "phone": "043996517182",
+      "website": "https://www.instagram.com/meubabygymlondrina/#",
       "image": "babygym.jpeg",
-      "membership": "Gold",
+      "membership": "gold",
       "industry": "Child Development"
     },
     {
       "name": "Alebrijes - Mexican Food",
-      "address": "Av. Octávio Genta, 28 - Londrina, PR",
-      "phone": "(43) 99681-8172",
+      "address": "Av. Octávio Genta, Londrina - PR",
+      "phone": "043996818172",
       "website": "https://www.instagram.com/alebrijesmexfood/",
       "image": "alebrijes.jpg",
-      "membership": "Bronze",
+      "membership": "bronze",
       "industry": "Food"
     },
     {
       "name": "Fiore D'Amore Gelato",
-      "address": "Av. Higienópolis, 455 - Londrina, PR",
-      "phone": "(43) 99100-2025",
+      "address": "Av. Higienópolis, Londrina - PR",
+      "phone": "043991002025",
       "website": "https://www.instagram.com/fioredamoregelato",
       "image": "fioredamore.jpg",
-      "membership": "Silver",
+      "membership": "silver",
       "industry": "Food"
     },
     {
       "name": "Colégio Positivo - Londrina",
-      "address": "Av. Maringá, 991 - Londrina, PR",
-      "phone": "(43) 3878-0004",
+      "address": "Av. Maringá, 991, Londrina - PR",
+      "phone": "04338780004",
       "website": "https://colegiopositivo.com.br/colegio/londrina/",
       "image": "positivo.jpg",
-      "membership": "Gold",
+      "membership": "gold",
       "industry": "Education"
     },
     {
       "name": "Restaurante Bollogna",
-      "address": "Av. Tiradentes, 209 - Londrina, PR",
-      "phone": "(43) 488-5810",
+      "address": "Av. Tiradentes, Londrina - PR",
+      "phone": "2084885810",
       "website": "https://bollogna.com.br/",
       "image": "bollogna.jpg",
-      "membership": "Silver",
+      "membership": "bronze",
       "industry": "Food"
     },
     {
-      "name": "Igreja de Jesus Cristo dos Santos dos Últimos Dias",
-      "address": "Rua Osório Duque Estrada, 143 - Londrina, PR",
-      "phone": "(43) 8888-4073",
-      "website": "https://local.churchofjesuschrist.org/",
+      "name": "A Igreja de Jesus Cristo dos Santos dos Últimos Dias",
+      "address": "Rua Osório Duque Estrada, Londrina - PR",
+      "phone": "2088884073",
+      "website": "https://local.churchofjesuschrist.org",
       "image": "igreja.png",
-      "membership": "Bronze",
+      "membership": "np",
       "industry": "Religion"
     },
     {
       "name": "C25 - Soccer Academy",
-      "address": "Arena 25 - Londrina, PR",
-      "phone": "(43) 99125-1125",
+      "address": "Arena 25, Londrina - PR",
+      "phone": "043991251125",
       "website": "https://c25socceracademy.com",
       "image": "c25.jpg",
-      "membership": "Gold",
+      "membership": "silver",
       "industry": "Training"
     }
   ]
