@@ -7,14 +7,12 @@
   }
 
   /* ==== SPOTLIGHT CARDS ==== */
-
-   .spotlight-grid {
+  .spotlight-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    width: 100%;
   }
-   
-   .spotlight-card {
-    height: 100%;
-   }
+
 
   /* ===== DIRECTORY GRID ===== */
 
@@ -51,6 +49,14 @@
     justify-content: center;
     margin: 0;
     gap: 0;
+  }
+
+    /* ===== JOIN ===== */
+
+  .join-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
   }
 
 }
