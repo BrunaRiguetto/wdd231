@@ -139,25 +139,25 @@
   <div class="membership-card">
     <h3>NP Membership</h3>
     <p>No Fee</p>
-    <button onclick="document.getElementById('npModal').showModal()">View Benefits</button>
+    <button class="open-modal" data-modal="npModal">View Benefits</button>
   </div>
 
   <div class="membership-card">
     <h3>Bronze Membership</h3>
     <p>Basic Exposure</p>
-    <button onclick="document.getElementById('bronzeModal').showModal()">View Benefits</button>
+    <button class="open-modal" data-modal="bronzeModal">View Benefits</button>
   </div>
 
   <div class="membership-card">
     <h3>Silver Membership</h3>
     <p>Advanced Promotion</p>
-    <button onclick="document.getElementById('silverModal').showModal()">View Benefits</button>
+    <button class="open-modal" data-modal="silverModal">View Benefits</button>
   </div>
 
   <div class="membership-card">
     <h3>Gold Membership</h3>
     <p>Premium Benefits</p>
-    <button onclick="document.getElementById('goldModal').showModal()">View Benefits</button>
+    <button class="open-modal" data-modal="goldModal">View Benefits</button>
   </div>
 
 </section>
@@ -176,25 +176,25 @@
 <dialog id="npModal">
   <h3>NP Membership Benefits</h3>
   <p>Free membership, event access, community listing.</p>
-  <button onclick="this.parentElement.close()">Close</button>
+  <button class="close-modal">Close</button>
 </dialog>
 
 <dialog id="bronzeModal">
   <h3>Bronze Membership Benefits</h3>
   <p>Training access, business directory listing.</p>
-  <button onclick="this.parentElement.close()">Close</button>
+  <button class="close-modal">Close</button>
 </dialog>
 
 <dialog id="silverModal">
   <h3>Silver Membership Benefits</h3>
   <p>Advertising discounts, spotlight eligibility.</p>
-  <button onclick="this.parentElement.close()">Close</button>
+  <button class="close-modal">Close</button>
 </dialog>
 
 <dialog id="goldModal">
   <h3>Gold Membership Benefits</h3>
   <p>Homepage spotlight, premium events, featured advertising.</p>
-  <button onclick="this.parentElement.close()">Close</button>
+  <button class="close-modal">Close</button>
 </dialog>
 
 </body>
