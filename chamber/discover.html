@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Londrina Chamber of Commerce | Discover</title>
+    <meta name="description" content="Discover Londrina – attractions, demographics, and places of interest.">
+    <meta name="author" content="Bruna Riguetto Vasconcelos">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Londrina Chamber of Commerce</h1>
+    <button id="menu">☰</button>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="directory.html">Directory</a>
+    <a href="join.html">Join</a>
+    <a href="discover.html" class="active">Discover</a>
+</nav>
+
+<main class="discover">
+
+    <!-- VISITOR MESSAGE -->
+    <section id="visit-message" class="visit-message"></section>
+
+    <h2>Discover Londrina</h2>
+
+    <!-- DISCOVER GRID -->
+    <section class="discover-grid" id="discover-grid">
+        <!-- Cards injected by JS -->
+    </section>
+
+</main>
+
+<footer>
+    <p>Londrina Chamber of Commerce</p>
+    <p>Email: info@londrinacitychamber.org | Phone: (555) 123-4567</p>
+    <p>
+        Bruna Riguetto Vasconcelos | WDD 231 |
+        © <span id="year"></span> |
+        Last Modified: <span id="lastModified"></span>
+    </p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = document.lastModified;
+</script>
+
+</body>
+</html>
