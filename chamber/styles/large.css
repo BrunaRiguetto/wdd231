@@ -59,7 +59,7 @@
     grid-template-areas:
       "card1 card2 card3"
       "card4 card5 card6"
-      "card7 card8 card8";
+      "card7 card8 .";
   }
 
   /* ===== DISCOVER IMAGE HOVER (DESKTOP ONLY) ===== */
