@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header, section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+h2 {
+    border-bottom: 2px solid #c49b66;
+    padding-bottom: 5px;
+}
+
+.color-sample {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    margin: 5px 0;
+}
+
+.sample-navy {
+    background-color: #023E7D;
+}
+
+.sample-bronze {
+    background-color: #c49b66;
+}
+
+/* Wireframe */
+.wireframe {
+    border: 2px dashed #666;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+.wire-box {
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
