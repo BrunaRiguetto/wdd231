@@ -1,19 +1,32 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #023E7D;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
 }
 
-header, section {
+header {
+    background-color: #023E7D;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1,
+header h3 {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+section {
     margin-bottom: 40px;
 }
 
 h1, h2 {
-    font-family: 'Georgia', serif;
-    color: #2c3e50;
+    font-family: Georgia, serif;
+    color: #023E7D;
 }
 
 h2 {
@@ -21,10 +34,18 @@ h2 {
     padding-bottom: 5px;
 }
 
+footer {
+    background-color: #023E7D;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Color Samples */
 .color-sample {
     width: 120px;
     height: 40px;
-    border: 1px solid #000;
+    border: 2px solid #023E7D;
     margin: 5px 0;
 }
 
@@ -38,7 +59,7 @@ h2 {
 
 /* Wireframe */
 .wireframe {
-    border: 2px dashed #666;
+    border: 2px dashed #c49b66;
     padding: 20px;
     margin: 20px 0;
     width: 100%;
@@ -46,7 +67,7 @@ h2 {
 }
 
 .wire-box {
-    border: 1px solid #aaa;
+    border: 1px solid #023E7D;
     padding: 20px;
     margin: 10px 0;
     text-align: center;
