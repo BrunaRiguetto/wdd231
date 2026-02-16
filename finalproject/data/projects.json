@@ -73,7 +73,7 @@
     "size": 400,
     "style": "Modern",
     "featured": false,
-    "image": "images/projects/home7.jpg",
+    "image": "images/home7.jpg",
     "description": "Bold architecture featuring glass façades and exposed concrete."
   },
   {
@@ -84,7 +84,7 @@
     "size": 310,
     "style": "Contemporary",
     "featured": false,
-    "image": "images/projects/home8.jpg",
+    "image": "images/home8.jpg",
     "description": "Two-story residence with spacious interiors and refined finishes."
   },
   {
@@ -95,7 +95,7 @@
     "size": 620,
     "style": "Luxury",
     "featured": true,
-    "image": "images/projects/home9.jpg",
+    "image": "images/home9.jpg",
     "description": "Premium hillside estate with panoramic views and custom details."
   },
   {
@@ -106,7 +106,7 @@
     "size": 130,
     "style": "Modern",
     "featured": false,
-    "image": "images/projects/home10.jpg",
+    "image": "images/home10.jpg",
     "description": "Affordable modern home designed for first-time homeowners."
   },
   {
@@ -117,7 +117,7 @@
     "size": 260,
     "style": "Brazilian Modern",
     "featured": false,
-    "image": "images/projects/home11.jpg",
+    "image": "images/home11.jpg",
     "description": "Residence centered around a private courtyard and natural ventilation."
   },
   {
@@ -128,7 +128,7 @@
     "size": 350,
     "style": "Minimalist",
     "featured": false,
-    "image": "images/projects/home12.jpg",
+    "image": "images/home12.jpg",
     "description": "Clean architectural lines and high-quality materials define this project."
   },
   {
@@ -139,7 +139,7 @@
     "size": 200,
     "style": "Traditional",
     "featured": false,
-    "image": "images/projects/home13.jpg",
+    "image": "images/home13.jpg",
     "description": "Functional layout designed for growing families."
   },
   {
@@ -150,7 +150,7 @@
     "size": 290,
     "style": "Modern",
     "featured": false,
-    "image": "images/projects/home14.jpg",
+    "image": "images/home14.jpg",
     "description": "Open concept living areas with seamless indoor-outdoor integration."
   },
   {
@@ -161,7 +161,7 @@
     "size": 480,
     "style": "Contemporary",
     "featured": false,
-    "image": "images/projects/home15.jpg",
+    "image": "images/home15.jpg",
     "description": "Upscale estate offering elegance, space, and exceptional craftsmanship."
   }
 ]
