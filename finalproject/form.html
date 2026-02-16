@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Projects | Nascimento Construction & Homes</title>
+
+    <meta name="description"
+        content="Explore custom residential projects by Nascimento Construction & Homes in Londrina, from modern family homes to upscale estates.">
+    <meta name="author" content="Bruna Riguetto do Nascimento Vasconcelos">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nascimento Construction & Homes">
+    <meta property="og:description" content="Custom residential projects in Londrina.">
+    <meta property="og:image" content="images/preview.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="scripts/projects.js" defer></script>
+
+    <form method="get" action="form.html">
+
+
+</head>
+<body>
+
+<header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nascimento</h1>
+                <span>Construction & Homes</span>
+            </div>
+
+            <button id="menuButton" aria-label="Toggle Navigation">☰</button>
+
+            <nav id="primaryNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<main class="container">
+    <h1>Thank You</h1>
+    <p>We have received your request. Below are your submitted details:</p>
+
+    <div id="submissionDetails"></div>
+</main>
+
+<footer>
+        <div class="container footer-container">
+            <p>
+                &copy; <span id="year"></span> Nascimento Construction & Homes.
+                All rights reserved.
+            </p>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="https://your-video-link-here.com" target="_blank">
+                    Project Demo Video
+                </a>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    const params = new URLSearchParams(window.location.search);
+
+    const name = params.get("name");
+    const email = params.get("email");
+    const budget = params.get("budget");
+    const message = params.get("message");
+
+    document.getElementById("submissionDetails").innerHTML = `
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Budget:</strong> ${budget}</p>
+        <p><strong>Message:</strong> ${message}</p>
+    `;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Family Residence",
+    "location": "Londrina, PR",
+    "price": 450000,
+    "size": 180,
+    "style": "Modern",
+    "featured": true,
+    "image": "images/projects/home1.jpg",
+    "description": "A contemporary family home with open living spaces and natural lighting."
+  },
+  {
+    "id": 2,
+    "name": "Contemporary Garden Home",
+    "location": "Londrina, PR",
+    "price": 620000,
+    "size": 220,
+    "style": "Contemporary",
+    "featured": true,
+    "image": "images/projects/home2.jpg",
+    "description": "Elegant residence with integrated indoor-outdoor living and landscaped garden."
+  },
+  {
+    "id": 3,
+    "name": "Brazilian Inspired Villa",
+    "location": "Londrina, PR",
+    "price": 980000,
+    "size": 320,
+    "style": "Brazilian Modern",
+    "featured": true,
+    "image": "images/projects/home3.jpg",
+    "description": "Inspired by Brazilian architecture with natural materials and open terraces."
+  },
+  {
+    "id": 4,
+    "name": "Compact Urban Home",
+    "location": "Londrina, PR",
+    "price": 320000,
+    "size": 140,
+    "style": "Minimalist",
+    "featured": false,
+    "image": "images/projects/home4.jpg",
+    "description": "Smartly designed compact home perfect for urban families."
+  },
+  {
+    "id": 5,
+    "name": "Luxury Pool Estate",
+    "location": "Londrina, PR",
+    "price": 2500000,
+    "size": 540,
+    "style": "Luxury",
+    "featured": true,
+    "image": "images/projects/home5.jpg",
+    "description": "High-end custom estate with infinity pool and premium finishes."
+  },
+  {
+    "id": 6,
+    "name": "Suburban Comfort Home",
+    "location": "Londrina, PR",
+    "price": 580000,
+    "size": 210,
+    "style": "Traditional",
+    "featured": false,
+    "image": "images/projects/home6.jpg",
+    "description": "A welcoming home combining comfort and durability."
+  },
+  {
+    "id": 7,
+    "name": "Glass & Concrete Residence",
+    "location": "Londrina, PR",
+    "price": 1400000,
+    "size": 400,
+    "style": "Modern",
+    "featured": false,
+    "image": "images/projects/home7.jpg",
+    "description": "Bold architecture featuring glass façades and exposed concrete."
+  },
+  {
+    "id": 8,
+    "name": "Elegant Two-Story Home",
+    "location": "Londrina, PR",
+    "price": 870000,
+    "size": 310,
+    "style": "Contemporary",
+    "featured": false,
+    "image": "images/projects/home8.jpg",
+    "description": "Two-story residence with spacious interiors and refined finishes."
+  },
+  {
+    "id": 9,
+    "name": "Luxury Hillside Retreat",
+    "location": "Londrina, PR",
+    "price": 3000000,
+    "size": 620,
+    "style": "Luxury",
+    "featured": true,
+    "image": "images/projects/home9.jpg",
+    "description": "Premium hillside estate with panoramic views and custom details."
+  },
+  {
+    "id": 10,
+    "name": "Modern Starter Home",
+    "location": "Londrina, PR",
+    "price": 300000,
+    "size": 130,
+    "style": "Modern",
+    "featured": false,
+    "image": "images/projects/home10.jpg",
+    "description": "Affordable modern home designed for first-time homeowners."
+  },
+  {
+    "id": 11,
+    "name": "Courtyard Family Home",
+    "location": "Londrina, PR",
+    "price": 720000,
+    "size": 260,
+    "style": "Brazilian Modern",
+    "featured": false,
+    "image": "images/projects/home11.jpg",
+    "description": "Residence centered around a private courtyard and natural ventilation."
+  },
+  {
+    "id": 12,
+    "name": "Minimalist Concrete House",
+    "location": "Londrina, PR",
+    "price": 1150000,
+    "size": 350,
+    "style": "Minimalist",
+    "featured": false,
+    "image": "images/projects/home12.jpg",
+    "description": "Clean architectural lines and high-quality materials define this project."
+  },
+  {
+    "id": 13,
+    "name": "Family Comfort Residence",
+    "location": "Londrina, PR",
+    "price": 540000,
+    "size": 200,
+    "style": "Traditional",
+    "featured": false,
+    "image": "images/projects/home13.jpg",
+    "description": "Functional layout designed for growing families."
+  },
+  {
+    "id": 14,
+    "name": "Open Concept Modern Home",
+    "location": "Londrina, PR",
+    "price": 890000,
+    "size": 290,
+    "style": "Modern",
+    "featured": false,
+    "image": "images/projects/home14.jpg",
+    "description": "Open concept living areas with seamless indoor-outdoor integration."
+  },
+  {
+    "id": 15,
+    "name": "Premium Contemporary Estate",
+    "location": "Londrina, PR",
+    "price": 1800000,
+    "size": 480,
+    "style": "Contemporary",
+    "featured": false,
+    "image": "images/projects/home15.jpg",
+    "description": "Upscale estate offering elegance, space, and exceptional craftsmanship."
+  }
+]

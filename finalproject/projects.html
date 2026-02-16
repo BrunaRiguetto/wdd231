@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Projects | Nascimento Construction & Homes</title>
+
+    <meta name="description"
+        content="Explore custom residential projects by Nascimento Construction & Homes in Londrina, from modern family homes to upscale estates.">
+    <meta name="author" content="Bruna Riguetto do Nascimento Vasconcelos">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nascimento Construction & Homes">
+    <meta property="og:description" content="Custom residential projects in Londrina.">
+    <meta property="og:image" content="images/preview.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="scripts/projects.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nascimento</h1>
+                <span>Construction & Homes</span>
+            </div>
+
+            <button id="menuButton" aria-label="Toggle Navigation">☰</button>
+
+            <nav id="primaryNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <h2 class="page-title">Our Projects</h2>
+
+        <!-- FILTER CONTROLS -->
+        <section class="controls">
+
+            <div class="filter-buttons">
+                <button data-style="All" class="active">All</button>
+                <button data-style="Modern">Modern</button>
+                <button data-style="Contemporary">Contemporary</button>
+                <button data-style="Luxury">Luxury</button>
+                <button data-style="Minimalist">Minimalist</button>
+                <button data-style="Traditional">Traditional</button>
+                <button data-style="Brazilian Modern">Brazilian Modern</button>
+            </div>
+
+            <div class="sort-control">
+                <label for="sortSelect">Sort by:</label>
+                <select id="sortSelect">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price (Low to High)</option>
+                    <option value="price-desc">Price (High to Low)</option>
+                    <option value="size-asc">Size (Small to Large)</option>
+                    <option value="size-desc">Size (Large to Small)</option>
+                </select>
+            </div>
+
+        </section>
+
+        <!-- PROJECT GRID -->
+        <section id="projectsContainer" class="projects-grid">
+            <!-- JavaScript will populate this -->
+        </section>
+
+    </main>
+
+    <!-- MODAL -->
+    <div id="projectModal" class="modal hidden">
+        <div class="modal-content">
+            <button id="closeModal" class="close-btn">&times;</button>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer-container">
+            <p>
+                &copy; <span id="year"></span> Nascimento Construction & Homes.
+                All rights reserved.
+            </p>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="https://your-video-link-here.com" target="_blank">
+                    Project Demo Video
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Projects | Nascimento Construction & Homes</title>
+
+    <meta name="description"
+        content="Explore custom residential projects by Nascimento Construction & Homes in Londrina, from modern family homes to upscale estates.">
+    <meta name="author" content="Bruna Riguetto do Nascimento Vasconcelos">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nascimento Construction & Homes">
+    <meta property="og:description" content="Custom residential projects in Londrina.">
+    <meta property="og:image" content="images/preview.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="scripts/projects.js" defer></script>
+
+    <form method="get" action="form.html">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nascimento</h1>
+                <span>Construction & Homes</span>
+            </div>
+
+            <button id="menuButton" aria-label="Toggle Navigation">☰</button>
+
+            <nav id="primaryNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container contact-page">
+
+        <h2 class="page-title">Contact Us</h2>
+
+        <div class="contact-grid">
+
+            <!-- Contact Info -->
+            <section class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Email:</strong> jose.renan.arn@gmail.com</p>
+                <p><strong>Phone:</strong> (43) 99999-9999</p>
+                <p><strong>Location:</strong> Londrina, PR</p>
+            </section>
+
+            <!-- Contact Form -->
+            <section class="contact-form">
+                <form id="contactForm">
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="budget">Estimated Budget</label>
+                    <select id="budget" name="budget" required>
+                        <option value="">Select</option>
+                        <option value="300k-600k">R$ 300k - 600k</option>
+                        <option value="600k-1M">R$ 600k - 1M</option>
+                        <option value="1M-3M">R$ 1M - 3M</option>
+                    </select>
+
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+
+                </form>
+
+                <p id="formMessage"></p>
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- MODAL -->
+    <div id="projectModal" class="modal hidden">
+        <div class="modal-content">
+            <button id="closeModal" class="close-btn">&times;</button>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer-container">
+            <p>
+                &copy; <span id="year"></span> Nascimento Construction & Homes.
+                All rights reserved.
+            </p>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="https://your-video-link-here.com" target="_blank">
+                    Project Demo Video
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
