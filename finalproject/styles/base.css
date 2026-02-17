@@ -34,6 +34,11 @@ a {
     color: inherit;
 }
 
+.main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
 /* ===============================
    LAYOUT UTILITIES
 ================================= */
@@ -67,6 +72,8 @@ header {
 
 .logo h1 {
     font-size: 2.4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .logo span {
