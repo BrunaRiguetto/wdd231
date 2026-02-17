@@ -77,7 +77,7 @@ function displayProjects() {
             <span>${project.style}</span>
             </div>
 
-            <button class="details-btn">+ DETALHES</button>
+            <button class="details-btn">+ DETAILS</button>
         </div>
 
         </div>
