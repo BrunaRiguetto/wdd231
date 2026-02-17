@@ -24,12 +24,13 @@
 
     /* Hero */
     .hero img {
-        height: 500px;
+        height: 700px;
     }
 
     .hero-text {
         bottom: 25%;
-        left: 12%;
+        right: 0.2%;
+        left: auto;
     }
 
     /* Controls Layout */
@@ -80,6 +81,8 @@
 
     .hero-text {
         max-width: 500px;
+        right: 0.2%;
+        left:auto
     }
 
 }

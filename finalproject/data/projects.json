@@ -7,7 +7,7 @@
     "size": 180,
     "style": "Modern",
     "featured": true,
-    "image": "images/projects/home1.jpg",
+    "image": "images/home1.jpg",
     "description": "A contemporary family home with open living spaces and natural lighting."
   },
   {
@@ -18,7 +18,7 @@
     "size": 220,
     "style": "Contemporary",
     "featured": true,
-    "image": "images/projects/home2.jpg",
+    "image": "images/home2.jpg",
     "description": "Elegant residence with integrated indoor-outdoor living and landscaped garden."
   },
   {
@@ -29,7 +29,7 @@
     "size": 320,
     "style": "Brazilian Modern",
     "featured": true,
-    "image": "images/projects/home3.jpg",
+    "image": "images/home3.jpg",
     "description": "Inspired by Brazilian architecture with natural materials and open terraces."
   },
   {
@@ -40,7 +40,7 @@
     "size": 140,
     "style": "Minimalist",
     "featured": false,
-    "image": "images/projects/home4.jpg",
+    "image": "images/home4.jpg",
     "description": "Smartly designed compact home perfect for urban families."
   },
   {
@@ -51,7 +51,7 @@
     "size": 540,
     "style": "Luxury",
     "featured": true,
-    "image": "images/projects/home5.jpg",
+    "image": "images/home5.jpg",
     "description": "High-end custom estate with infinity pool and premium finishes."
   },
   {
@@ -62,7 +62,7 @@
     "size": 210,
     "style": "Traditional",
     "featured": false,
-    "image": "images/projects/home6.jpg",
+    "image": "images/home6.jpg",
     "description": "A welcoming home combining comfort and durability."
   },
   {
@@ -78,14 +78,14 @@
   },
   {
     "id": 8,
-    "name": "Elegant Two-Story Home",
+    "name": "Elegant Home",
     "location": "Londrina, PR",
     "price": 870000,
     "size": 310,
     "style": "Contemporary",
     "featured": false,
     "image": "images/home8.jpg",
-    "description": "Two-story residence with spacious interiors and refined finishes."
+    "description": "Residence with spacious interiors and refined finishes."
   },
   {
     "id": 9,
